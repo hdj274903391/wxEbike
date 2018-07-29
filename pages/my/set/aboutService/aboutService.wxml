@@ -1,0 +1,11 @@
+<view class="container">
+  <text class='title'>客服热线 4888-888888，服务时间 8:00-20:00。</text>
+  <text class='content'>如您有任何疑问，请于服务时间内拨打客服热线， 我们将竭诚为您服务。  
+  </text>
+   <text class='title'>紧急事故：</text>
+  <text class='content'> 若骑行中出现交通意外，请拨打热线后按9转紧急专线，我们将第一时间为您处理</text>
+   <text class='title'>遗失物品:</text>
+  <text class='content'> 如您行程结束后遗失物品，也可通过拨打热线联系我们，我们会在法律允许的范围内协助您寻找相关物品。</text>
+   <text class='title'>邮箱通道:</text>
+  <text class='content'>如您不便接听语音电话活进行语音沟通，欢迎发送您的问题至客服邮箱：88888888@edianche.com，我们将竭诚为您服务。</text>
+</view>

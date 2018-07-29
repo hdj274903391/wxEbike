@@ -1,0 +1,42 @@
+.container{
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+.title{
+  font-size: 18px;
+  white-space: 5px;
+  margin-top: 25px;
+  font-weight: 600;
+}
+.attention{
+  margin-top: 20px;
+  font-size: 15px;
+  white-space: 5px;
+}
+.scan{
+  width: 180px;
+  height: 40px;
+  border-radius: 40px;
+  background: #5ac72f;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 18px;
+  margin-top: 65px;
+}
+.handKey{
+  width: 180px;
+  height: 40px;
+  border-radius: 40px;
+ border: 1px solid #cdcdcd;
+  text-align: center;
+  line-height: 40px;
+  color: #646464;
+  font-size: 18px;
+  margin-top: 30px;
+  background: white;
+}
+button::after{
+border: none;
+}

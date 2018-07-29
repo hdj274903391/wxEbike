@@ -1,0 +1,8 @@
+<!--pages/selectionKey/selectionKey.wxml-->
+<view class='container'>
+  <text class='title'>欢迎使用e电车</text>
+  <text class='attention'>请规范用车，骑行中不要关闭小程序</text>
+  <button class='scan' bindtap='scanCode'>扫码用车</button>
+  <button class='handKey' bindtap='changeToHandKey'>手动输入车牌号</button>
+  
+</view>

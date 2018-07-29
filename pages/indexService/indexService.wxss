@@ -1,0 +1,50 @@
+
+.customService{
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(99,99,99,.5);
+}
+.serviceContent{
+  width: 100%;
+  height: 43%;
+  position: absolute;
+  bottom: 0;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.serviceContentTop{
+  width: 100%;
+  height: 57%;
+}
+.serviceTittle{
+  font-size: 12px;
+  height: 55px;
+  line-height: 55px;
+  color: #969696;
+}
+.serviceList{
+  width: 75%;
+  height: 140px;
+white-space: pre-wrap;
+}
+.serviceItem{
+ font-size: 12px;
+ display: inline-block;
+ height: 55px;
+ width: 50%;
+text-align: center;
+margin-bottom: 20px;
+
+}
+.serviceItemImg{
+  position: relative;
+  margin: 0 auto;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 6px;
+}

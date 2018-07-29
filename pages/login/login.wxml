@@ -1,0 +1,28 @@
+<view  class='content'>
+  <text class='icon-logo' style='font-size:55px;margin-bottom:30px;'></text>
+  <!-- <image mode='widthFix' style='width:145px;margin-bottom:40px;'  src="../../resources/eBikeLogo.png"></image> -->
+  <view class='input'>
+    <input name='phoneNumber' bindinput='phoneNumberInput' placeholder='请输入手机号'></input>
+  </view>
+  <view class='input'>
+    <input name='captchaCode' bindinput='captchaCodeInput' placeholder='短信验证码'style="width:174px">
+    
+    </input>
+    <view class='sendNum' open-type='SendCaptcha' bindtap="SendCaptcha">发送验证码</view>
+  </view>
+  <!-- <button form-type='submit' >确定</button> -->
+  <view  class='agreeView'>  
+     <view class='agree' bindtap='selectPay' >
+        <!-- <icon  type="success" size="21" class="{{selectPay?'selectPay':'selectPayNone'}}" /> -->
+        <view class='icon-Yes' style='' class="{{selectPay?'icon-Yes':''}}"></view>
+      </view>
+    <view class='agreeFont' bindtap='handleToRules' data-rule="loginRule">已阅读并同意《 <text class='underLine'>米加智能车用车服务条款</text> 》</view>
+  </view>
+  <button open-type="getUserInfo" bindtap='handleLogin' class='sure'>完成</button>
+</view>
+<view class='mark' wx:if="{{auth}}">
+
+       <!-- <button open-type="getUserInfo" bindgetuserinfo='handleGetUserInfo'>允许授权</button>  -->
+    <image class='logo' src='../../resources/eBikeLogo.png'></image>
+    <button class="normal"  open-type="getUserInfo"  bindgetuserinfo='handleGetUserInfo'>微信一键登录</button>
+</view>

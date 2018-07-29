@@ -1,0 +1,29 @@
+.container{
+  width: 100%;
+}
+.content{
+  width: 92%;
+  font-size: 15px;
+  margin-top: 20px;
+  color: #323232;
+}
+.bottom{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin:40rpx 0;
+}
+
+.recharge{
+  border: 1px solid #5ac72f;
+  background: white;
+  color: #5ac72f;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  width: 182px;
+  border-radius: 40px; 
+}

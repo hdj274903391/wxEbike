@@ -1,0 +1,11 @@
+<view class='container'>
+  <text class='title'>共花费<text class='titlePrice'>{{orderInfo.cyclingTotalPrice}}</text>元</text>
+  <view class='detail'>
+    <view class="detailNum">{{orderInfo.cyclingTotalMileage}}</view>米  
+    <view class="detailNum" style='margin-left:30px;'>{{orderInfo.cyclingTotalTime}}</view>分钟
+    <view class="detailNum" style='margin-left:30px;'>{{orderInfo.cyclingTotalTime}}</view>积分
+  </view>
+  <view class='endView' bindtap='handleOrderEnd'> 行程结束</view>
+  <text class='introduce'>计费说明：{{price}}元/小时</text>
+   <view class='lock' bindtap='handleCyclingLock'>临时上锁 <text wx:if="{{time >=0 }}">({{time}})</text> </view>
+</view>     

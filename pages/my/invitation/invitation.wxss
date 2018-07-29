@@ -1,0 +1,65 @@
+.container{
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  border-top: 1px solid #cdcdcd;
+}
+.card{
+  width: 93%;
+  margin-top: 10px;
+}
+.cardItem{
+  width: 100%;
+  height: 155px;
+  border-radius: 10px;
+  background: #b7dfac;
+  margin-bottom: 5px;
+}
+.cardItem>image{
+  width: 100%;
+  height: 100%;
+}
+.title{
+  height: 29px;
+  width: 100%;
+  line-height:29px; 
+  font-size: 15px;
+  text-indent: 15px;
+}
+.used{
+  color: #979797;
+}
+.yaoQing{
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.yaoQingNum{
+  color: #cdcdcd;
+  font-size: 15px;
+   width: 182px;
+   height: 50px;
+   line-height: 50px;
+   text-align: center; 
+}
+.yaoQingBtn{
+  background: #5ac72f;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  width: 182px;
+  border-radius: 40px;
+}
+.detail{
+  margin-top: 5px;
+  margin-left: 15px;
+  color: #5ac72f;
+  font-size: 15px;
+}

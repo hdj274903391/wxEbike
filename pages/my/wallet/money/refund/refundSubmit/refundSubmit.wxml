@@ -1,0 +1,9 @@
+
+<view class='content'>
+    <textarea placeholder='请填写您的退款原因' bindinput='handleInputContent' class='textarea'>
+    </textarea>
+    <view class='scanView'  >
+      <input bindinput='codeNum'style='margin-left:15px;' placeholder='联系方式'></input>
+    </view>
+</view>
+<view class='submitBtn' bindtap='handleSubmit'>提交</view>

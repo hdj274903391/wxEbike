@@ -1,0 +1,20 @@
+.container{
+  border-top: 1px solid #dcdcdc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  font-size:15px; 
+  color: black;
+  margin-top: 20px;
+  white-space:nowrap;
+  width: 85%;
+}
+.content{
+  font-size: 15px;
+  color: #848181;
+  line-height: 24px;
+  margin-top: 8px;
+  width: 85%;
+}

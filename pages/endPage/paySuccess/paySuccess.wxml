@@ -1,0 +1,16 @@
+<view class='container'>
+  <image class='sureImg' src="../../../resources/sure.png"></image>
+  <text class='sureFont'>付款成功</text>
+  <!-- <text class='passwordTitle'>车牌号128765解锁密码： <text class='help'>帮助</text></text> -->
+  <!-- <text class='password'>8808</text> -->
+  <text class='attention'> 感谢您使用e电车出行</text>
+  <!-- <view class='sureView'>
+    <view class='sureBtn'>确定</view>
+  </view> -->
+  <view class='bottomContent' bindtap='handleTofalut'>
+     <text class='icon-repair fixImg' ></text>
+     <text class='fixFont'>立即报修</text>
+  </view>
+ 
+</view>
+

@@ -1,0 +1,55 @@
+<view class='container'>
+   <view class='navigation'>
+
+      <view bindtap="changeNavigation" class="{{showfilterindex==0?'navigationItemActive':'navigationItem'}}"  data-findex="0">骑行券</view>
+       <view bindtap="changeNavigation" class="{{showfilterindex==1?'navigationItemActive':'navigationItem'}}"  data-findex="1">优惠券</view>
+      <view bindtap="changeNavigation" class="{{showfilterindex==2?'navigationItemActive':'navigationItem'}}"  data-findex="2">用车券</view> 
+  </view>
+  <view class='useIntroduce'>使用说明</view>
+  <view class="cardList" wx:if="{{showfilterindex === '0'}}">
+     <!-- <view class='cardItem'>
+      <image class='cardImg' src="../../../../../resources/card.png"></image>
+      <view class='cardContent'>
+        <view class='distance'><text>20</text>公里</view>
+        <view class='cardNum'>
+          <view class=''>8折优惠卷</view>
+          <view class=''>有效期：2018.01.14-2018.02.13</view>
+        </view>
+      </view>
+    </view>  -->
+    <view style='width:100%;margin-top:150px;'>
+      <image src="../../../../../resources/nocard.png" mode='widthFix' style='width:100px;'></image>
+    </view>
+  </view>
+   <view class="cardList" wx:if="{{showfilterindex === '1'}}">
+   <view style='width:100%;margin-top:150px;'>
+      <image src="../../../../../resources/nocard.png" mode='widthFix' style='width:100px;'></image>
+    </view>
+      <!-- <view class='cardItem'>
+      <image class='cardImg' src="../../../../../resources/card.png"></image>
+      <view class='cardContent'>
+        <view class='distance'><text>50</text>公里</view>
+        <view class='cardNum'>
+          <view class=''>7折优惠卷</view>
+          <view class=''>有效期：2018.01.14-2018.02.13</view>
+        </view>
+      </view>
+    </view>   -->
+  </view>
+  <view class="cardList" wx:if="{{showfilterindex === '2'}}">
+     <view style='width:100%;margin-top:150px;'>
+      <image src="../../../../../resources/nocard.png" mode='widthFix' style='width:100px;'></image>
+    </view>
+      <!-- <view class='cardItem'>
+      <image class='cardImg' src="../../../../../resources/card.png"></image>
+      <view class='cardContent'>
+        <view class='distance'><text>100</text>公里</view>
+        <view class='cardNum'>
+          <view class=''>6折优惠卷</view>
+          <view class=''>有效期：2018.01.14-2018.02.13</view>
+        </view>
+      </view> 
+    </view>  -->
+  </view> 
+
+</view>

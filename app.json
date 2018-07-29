@@ -1,0 +1,40 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/mynews/mynews",
+    "pages/my/userinfo/userinfo",
+    "pages/my/wallet/wallet",
+    "pages/my/travel/travel",
+    "pages/my/invitation/invitation",
+    "pages/my/cardpackage/cardpackage",
+    "pages/my/set/aboutService/aboutService",
+    "pages/my/set/rules/rules",
+    "pages/my/wallet/money/money",
+    "pages/my/set/set",
+    "pages/my/travel/travelDetail/travelDetail",
+    "pages/selectionKey/selectionKey",
+    "pages/handKey/handKey",
+    "pages/bikePassword/bikePassword",
+    "pages/scanKey/scanKey",
+    "pages/endPage/endPage",
+    "pages/endPage/temporary",
+    "pages/test/test",
+    "pages/my/userinfo/ModifyNickName/ModifyNickName",
+    "pages/indexService/indexService",
+    "pages/my/wallet/accountList/accountList",
+    "pages/my/bikeFault/bikeFault",
+    "pages/my/wallet/money/refund/refund",
+    "pages/my/wallet/money/refund/refundSubmit/refundSubmit",
+    "pages/endPage/paySuccess/paySuccess"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "e电车",
+    "navigationBarTextStyle": "black"
+  }
+}

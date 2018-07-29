@@ -1,0 +1,100 @@
+
+    <view class='myinfo'>
+      <view class='myinfotop' bindtap="changeToUserinfo">
+        <image class='userphoto'src="{{userInfo.memberAvatarPath}}"></image>
+     
+          <view class='userphone'>{{userInfo.memberName}}</view>
+          <view class=' score'>{{userInfo.score}}积分</view>
+    
+      </view>
+      <view class='list'>
+      <view bindtap='changeToNews'  class='listItem'>
+          <view class='listtitle'>
+            <text class='icon-message1 listtitleIcon'></text>
+            <view>我的消息</view>
+          </view>
+          <view class='detail'><text class='attention' wx:if="{{userdetail.redEnvelope.length > 0}}">{{userdetail.redEnvelope}}</text><test class="icon-detailArrow"></test> </view>
+        </view>
+        <view bindtap="changeToWallet"  class='listItem'>
+          <view class='listtitle'>
+            <text class='icon-wallet listtitleIcon'></text>
+            <view>我的钱包</view>
+          </view>
+          <view class='detail'>
+            <test>{{userdetail.accountBalance}}元</test> 
+            <test class="icon-detailArrow"></test> 
+          </view>
+        </view>
+        <view bindtap="changeToTravel" class='listItem'>
+          <view class='listtitle'>
+             <text class='icon-road listtitleIcon'></text>
+            <view>我的行程</view>
+          </view>
+          <view class='detail'> <test>共{{userdetail.routeDistance}}米</test><test class="icon-detailArrow"></test> </view>
+        </view>
+        <view bindtap="changeToCardpackage"  class='listItem'>
+          <view class='listtitle'>
+            <text  class='icon-ticket listtitleIcon'></text>
+            <view>我的卡劵</view>
+          </view>
+          <view class='detail'><test class="icon-detailArrow"></test> </view>
+        </view>
+         <button open-type="share"  class='listItem' style='background:transparent'>
+          <view class='listtitle'>
+             <text  class='icon-share listtitleIcon'></text>
+            <view>邀请好友</view>
+          </view>
+          <view class='detail'><test class="icon-detailArrow"></test> </view>
+        </button>
+        <!-- <view  bindtap="changeToInvitation"  class='listItem'>
+          <view class='listtitle'>
+             <text  class='icon-share listtitleIcon'></text>
+            <view>邀请好友</view>
+          </view>
+          <view class='detail'><test class="icon-detailArrow"></test> </view>
+        </view> -->
+        <view bindtap="customService"  class='listItem'>
+          <view class='listtitle'>
+            <text class='icon-customService listtitleIcon'></text>
+            <view>客户服务</view>
+          </view>
+          <view class='detail'><test class="icon-detailArrow"></test> </view>
+        </view>
+        <view bindtap="changeToSet"  class='listItem'>
+          <view class='listtitle'>
+            <text class='icon-set listtitleIcon' style='font-size:17px;'></text>
+            <view>用户设置</view>
+          </view>
+          <view class='detail'><test class="icon-detailArrow"></test> </view>
+        </view>
+      </view>
+      
+      <!-- <view class='myinfobottom'>
+        <view bindtap="changeToSet" class='myinfobottomItem'>
+             <text  class='icon-set'></text>
+            <view>用户设置</view>
+        </view>
+        <view bindtap="changeToInstructions" class='myinfobottomItem'>
+           <text class='icon-guide'></text>
+            <view>用户指南</view>
+        </view>
+      </view> -->
+    <view class='customService' wx:if="{{customService}}" bindtap='customService'>
+      <view class='serviceContent' >
+        <view class='serviceTittle'>客服服务</view>
+        <view class='serviceList'>
+          <view class='serviceItem' wx:for="{{serviceItem}}" bindtap='handleToSubmit' wx:key="index" data-index="{{index}}">
+            <!-- <image class='serviceItemImg' src="{{item.src}}"></image>  -->
+            <text class='{{item.class}}' style='font-size:35px;'></text>
+            <view>{{item.name}}</view>
+          </view> 
+        </view>
+      </view>
+    </view>
+    </view>
+    
+
+  
+
+
+

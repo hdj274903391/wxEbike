@@ -1,0 +1,47 @@
+.container{
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  border-top: 1px solid #cdcdcd;
+}
+.title{
+  font-size: 24px;
+  color: #5ac72f;
+  margin-top: 10px;
+}
+.price{
+  font-size: 15px;
+  margin-top: 25px;
+  white-space: 5px;
+}
+.price>text{
+  font-size: 24px;
+  white-space: 5px;
+}
+.endView{
+  width: 180px;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  background: #b4b4b4;
+  color: white;
+  margin-top: 50px;
+}
+.introduce{
+  font-size:15px;
+  margin-top: 40px;
+  margin-bottom: 12px; 
+  color: #999;
+}
+.lock{
+  width: 180px;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  border: 1px solid #5ac72f;
+  color: #5ac72f;
+}

@@ -1,0 +1,9 @@
+<!--pages/endPage/temporary.wxml-->
+<view class="container">
+<text class='title'>临时上锁成功</text>
+<view class='price'><text>{{time}}</text>分钟</view>
+ <view class='endView' bindtap='handleCyclingOver'> 行程结束</view>
+  <text class='introduce'>计费收明:{{price}}元/小时</text>
+   <view class='lock' bindtap='handleCyclingLock'>解锁车辆</view>
+</view>
+

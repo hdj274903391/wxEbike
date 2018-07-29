@@ -1,0 +1,72 @@
+.container{
+  width: 100hv;
+  height: 100%;
+  padding: 15px;
+  overflow: hidden;
+  border-top: 1px solid #f0f0f0;
+}
+.sureImg{
+  width: 63px;
+  height: 63px;
+  margin-top: 20px;
+}
+.sureFont{
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  color: #5ac72f;
+  font: 24px;
+}
+.passwordTitle{
+  font-size: 15px;
+  text-align: start;
+  width: 100%;
+}
+.help{
+  color: #5ac72f;
+  float: right;
+}
+.password{
+  font-size: 30px;
+  white-space: 5px;
+  height: 60px;
+  line-height: 60px;
+}
+.attention{
+  font-size: 15px;
+  color: #969696;
+}
+.bottomContent{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  position: absolute;
+  bottom: 40px;
+}
+.fixImg{
+  font-size: 40px;
+}
+.fixFont{
+  font-size: 12px;
+}
+.sureView{
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.sureBtn{
+  height: 40px;
+  width: 180px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 40px;
+  font-size: 18px;
+  color: white;
+  background: #5ac72f;
+}

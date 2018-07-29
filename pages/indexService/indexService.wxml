@@ -1,0 +1,12 @@
+<view class='customService' >
+    <view class='serviceContentTop' ></view>
+    <view class='serviceContent' >
+      <view class='serviceTittle'>客服服务</view>
+      <view class='serviceList'>
+         <view class='serviceItem' wx:for="{{serviceItem}}">
+           <image class='serviceItemImg' src="{{item.src}}"></image> 
+           <view>{{item.name}}</view>
+        </view> 
+      </view>
+    </view>
+  </view>

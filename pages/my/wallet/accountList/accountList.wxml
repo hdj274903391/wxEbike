@@ -1,0 +1,15 @@
+<view class='container'>
+  <view class='contentList'>
+    <view class='contentItem' wx:for="{{accountList}}" wx:key="index">
+      <view class='itemContent'>
+        <view class='itemTitle'>{{item.transactionType}}</view>
+        <view class='itemTime'>{{item.systemUpdateTime}}</view>
+      </view>
+      <view  class="itemPrice1" >
+        <text wx:if="{{item.transactionType ==='充值金额' }}" style='color: #5ac72f'>+</text> 
+        <text wx:if="{{item.transactionType ==='提现金额' || item.transactionType ==='支付金额' || item.transactionType ==='预约支付金额'}}" style='color:#ff4c4d'>-</text>
+        {{item.moneyChange}}
+      </view>
+    </view>
+  </view>
+</view>

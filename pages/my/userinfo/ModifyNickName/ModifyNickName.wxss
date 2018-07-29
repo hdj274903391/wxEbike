@@ -1,0 +1,19 @@
+page{
+  background: #f0f0f0;
+}
+.top{
+  background: white;
+  width: 100%;
+  overflow: hidden;
+
+}
+.keep{
+  margin-top: 40px;
+  width: 180px;
+  height: 40px;
+  border-radius: 40px;
+  background: #5ac72f;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+}

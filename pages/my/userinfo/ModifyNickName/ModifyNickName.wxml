@@ -1,0 +1,6 @@
+<view class="container">
+  <view class='top'>
+    <input placeholder='{{nickName}}' style='width:100%; height:50px;margin-left:20px;font-size:15px;' bindinput='handleChangeName' value="{{newName}}"></input>
+  </view>
+  <view class='keep' bindtap='handleSubmit'>保存</view>
+</view>

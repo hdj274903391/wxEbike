@@ -1,0 +1,15 @@
+<view class='container'>
+  <!-- <view class='containerlist'>
+    <view class='containerlistimg'></view>
+     <view class='containerlistbottom'>
+      <view>
+       <text class='title'>骑行里程还</text>
+        <text class='state'>进行中</text>
+      </view>
+      <view>
+       <text class='date'>2018.01.12</text>
+      </view>
+    </view>  
+  </view> -->
+    <image style='width:50px;margin-top:200px;' mode='widthFix' src="/resources/nullNews.png"></image>
+</view>

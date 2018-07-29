@@ -1,0 +1,29 @@
+<view class="container">
+  <image class='top' src="../../../resources/rechargeBanner.png" mode='widthFix' bindtap='changeToMoney'></image>
+  <view class='list'>
+    <view class='listTittle'>
+      骑行余额
+    </view>
+    <view class='listContent'>
+      <text class='numRest'>{{walletDetail.accountBalance}}元</text>
+      <view bindtap='changeToMoney'>充值</view>
+    </view>
+  </view>
+   <view class='list'>
+    <view class='listTittle'>
+      我的积分
+    </view>
+    <view class='listContent'>
+      <text class='numRest'>{{walletDetail.score}}</text>
+    </view>
+  </view>
+   <view class='list noBottom'>
+    <view class='listTittle'>
+      我的红包
+    </view>
+    <view class='listContent'>
+      <text class='numRest'>{{walletDetail.redEnvelope}}元</text>
+    </view>
+  </view>
+  <view class='history' bindtap='handleToAccountList'>收支明细</view>
+</view>

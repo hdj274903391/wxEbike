@@ -1,0 +1,18 @@
+<view class='container'>
+  <view class='containerTop' style='padding-bottom:5px;'>
+    <view class='title'>您骑行了</view>
+    <view class='distance' style='margin-bottom:0;'>{{sumTotalMileage}}米</view>
+    <!-- <view class='discount'>再骑行 5 公里享优惠 ！</view> -->
+  </view>
+ <view class='timeTitle'>
+    <view class='line'></view>
+    <view> {{NowYear}}</view>
+    <view class='line'></view>
+ </view>
+ <view class='timeList'>
+  <view class='timeItem' bindtap='handleToDetail' wx:for="{{travelList}}" wx:key="index" data-orderId="{{item.cyclingOrderId}}">
+   <view>{{item.orderStartTime}}</view>
+   <view>{{item.cyclingTotalTime}}分钟 {{item.cyclingTotalPrice}}元</view>
+  </view>
+ </view>
+</view>

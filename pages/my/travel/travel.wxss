@@ -1,0 +1,62 @@
+.container{
+  width: 100%;
+  padding: 0;
+  border-top: 1px solid #cdcdcd;
+  display: flex;
+  justify-content: center;
+}
+.containerTop{
+  width: 100%;
+ padding: 15px ;
+
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+.containerTop>view{
+  width: 90%;
+  margin-bottom: 10px;
+}
+.title{
+  font-size: 15px;
+  height: 20px;
+  line-height: 20px;
+}
+.distance{
+  font-size: 24px;
+}
+.discount{
+  font-size: 14px;
+  color: #5ac72f;
+  height: 30px;
+  background: #e3f5dc;
+  line-height: 30px;
+  text-indent: 15px;
+}
+.timeTitle{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #cdcdcd;
+}
+.line{
+  width: 35%;
+  height: 1px;
+  background: #f0f0f0;
+}
+.timeList{
+  width: 90%;
+  margin-top: 5px;
+}
+.timeItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  height: 43px;
+}
+.timeItem>view:nth-child(2){
+  color: #959595;
+}

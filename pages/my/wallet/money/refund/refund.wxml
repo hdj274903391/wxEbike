@@ -1,0 +1,30 @@
+<view class='container'>
+  <view class='content'>
+  在无另行发布的促销或优惠活动的情况下，米加公司依据用车时间进行计费。
+  </view>
+  <view class='content'>
+  车辆出桩开始计时，租车内2分钟不收取费用，2分
+钟后开始计费。每1小时计费2元，不足1小时的按
+1小时计算。*每1小时计价1次。
+  </view>
+  <view class='content'>
+  例：用户租车2分钟内归还车辆，不收取任何费用；
+用户租车2-60分钟，收取2元费用；用户租车1小
+时1分钟，收取4元费用，以此类推。
+  </view>
+  <view class='content'>
+  24小时内，连续租车时间超过15小时，封顶30元。
+  </view>
+  <view class='content'>
+  例：用户租车14小时59分，收取30元租车费用；用
+户租车23小时59分，依旧收取30元租车费用（当日
+封顶范围内）。
+  </view>
+  <view class='content'>
+  连续租车超过24小时，自动计算前24小时租车费用
+为30元，24小时后重新起步，开始计费
+  </view>
+   <view class='bottom'>
+    <view class='recharge' bindtap='handleToRefund'>申请退款</view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+
+<view class='content'>
+    <textarea placeholder='{{defaultType[index].titile}}' bindinput='handleInputContent' class='textarea'>
+    </textarea>
+    <view class='scanView' wx:if="{{index != 3}}" >
+      <!-- <view wx:if="{{ index == 0 || index == 1}}" >车辆编码</view> -->
+      <input wx:if="{{ index == 0 || index == 1}}" bindinput='codeNum' placeholder='车辆编码' style='margin-left:15px;'></input>
+      <!-- <view wx:if="{{ index == 2}}" >车桩编码</view> -->
+      <input wx:if="{{ index == 2}}" bindinput='codeNum'style='margin-left:15px;' placeholder='车桩编码'></input>
+      <view class='icon-scan' bindtap='HandleBikeCode'></view>
+    </view>
+</view>
+<view class='submitBtn' bindtap='handleSubmit'>提交</view>

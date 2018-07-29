@@ -1,0 +1,42 @@
+<view class="container">
+  <!-- <camera device-position="back" flash="on" binderror="error" style="width: 1px; height: 1px;"></camera> -->
+  <view class='title'>请输入车辆编号 </view>
+
+  <view class='content'>
+    <view  class="wallets-password">
+      <view class="input-content-wrap">
+        <view catchtap="set_Focus" class="input-password-wrap">
+          <view class="password_dot">
+              <i wx:if="{{wallets_password.length>=1}}">{{wallets_password[0]}}</i> 
+          </view>
+          <view class="password_dot">
+              <i wx:if="{{wallets_password.length>=2}}">{{wallets_password[1]}}</i> 
+          </view>
+          <view class="password_dot">
+              <i wx:if="{{wallets_password.length>=3}}">{{wallets_password[2]}}</i> 
+          </view>
+          <view class="password_dot">
+              <i wx:if="{{wallets_password.length>=4}}">{{wallets_password[3]}}</i> 
+          </view>
+          <view class="password_dot">
+              <i wx:if="{{wallets_password.length>=5}}">{{wallets_password[4]}}</i> 
+          </view>
+          <view class="password_dot">
+              <i wx:if="{{wallets_password.length>=6}}">{{wallets_password[5]}}</i> 
+          </view>
+          <view class="password_dot">
+              <i wx:if="{{wallets_password.length>=7}}">{{wallets_password[6]}}</i> 
+          </view>
+        </view>
+      </view>
+      <input bindinput="set_wallets_password" class="input-content"  auto-focus='true' type="number" focus="{{isFocus}}" maxlength="7"/>
+    </view>
+    <view class='open' bindtap='changeToPassword' bindtap='bikePassword'>解锁</view>
+    <text class='help'>帮助</text>
+  </view>
+  
+  
+
+
+
+</view>

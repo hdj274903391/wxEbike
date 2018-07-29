@@ -1,0 +1,118 @@
+.content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #dcdcdc;
+  padding-top: 80px;
+  position: absolute;
+  justify-content: center;
+}
+.input{
+  width: 240px;
+  height: 40px;
+  border-bottom: 1px solid #dcdcdc;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.input>input{
+  width: 100%;
+  height: 40px;
+  font-size: 12px;
+  color: #959595;
+}
+.sendNum{
+  width: 66px;
+  height: 24px;
+  display: inline-block;
+  font-size: 10px;
+  background: #5ac72f;
+  border-radius: 24px;
+  color: white;
+  text-align: center;
+  line-height: 24px;
+}
+.sure{
+  width: 180px;
+  height: 40px;
+  border-radius: 40px;
+  background: #5ac72f;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  position: relative;
+  margin: 0 auto;
+  top: 45px;
+}
+.agreeView{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.agree{
+  width: 20px;
+  height: 20px;
+  border-radius:50%; 
+  font-size: 10px;
+  position: relative;
+  border: 1px solid #999;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+}
+.icon-Yes{
+  content: "\e911";
+  color: #5ac72f;
+  font-size:15px;line-height: 24px;
+}
+.agreeFont{
+  font-size: 10px;
+  margin-left: 5px;
+}
+.selectPay>view{
+  display: inline-block;
+}
+.underLine{
+  text-decoration-line: underline; 
+}
+.selectPayNone{
+  display: block;
+  font-size:15px;line-height: 24px;
+}
+.logo{
+
+}
+
+.mark{
+  width: 100%;
+  height: 100vh;
+  line-height: center;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  z-index: 999;
+}
+.logo{
+  width: 380rpx;
+  height: 160rpx;
+  margin: 100rpx 0;
+  margin-top: 200rpx;
+}
+.mark .normal{
+  background-color: #5ac72f;
+  border: 0;
+  line-height:38px;
+  width: 45%;
+  color: #fff;
+  font-size: 34rpx; 
+  border-radius: 20px;
+
+}
+.mark::after{
+  border: 0;
+}

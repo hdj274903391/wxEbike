@@ -1,0 +1,24 @@
+<view class="content">
+    <map id="MapDetail" latitude="{{latitude}}" longitude="{{longitude}}" scale="{{scale}}"  markers="{{markers}}" controls="{{controls}}" show-location/>
+    <view class='travelDetail'>
+      <text>共花费 <text class='price'>{{orderInfo.cyclingTotalPrice}}</text>元</text>
+      <view class='travelNum'>
+        <text>{{orderInfo.cyclingTotalMileage}}</text>米　　
+       <text>{{orderInfo.cyclingTotalTime}}</text>分钟　　<text>{{orderInfo.ruleAddScoreRoundHalfUp}}</text>积分
+      </view>
+      <view class='travelPriceList'>
+       <view>骑行费用</view>
+       <view>{{orderInfo.cyclingTotalPrice}}元</view>
+      </view>
+       <view class='travelPriceList'>
+       <view>电子围栏停车费用</view>
+       <view>{{orderInfo.areaPointStrategyParkingPrice}}元</view>
+      </view>
+       <view class='travelPriceList'>
+       <!-- <view>回收费用</view>
+       <view>{{orderInfo.cyclingTotalPrice}}元</view> -->
+      </view>
+    </view>
+   
+    <button open-type="share" class='share' bindtap='onShareAppMessage'>分享</button>
+</view>

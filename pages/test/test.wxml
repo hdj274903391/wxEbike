@@ -1,0 +1,12 @@
+<form bindsubmit="formBindsubmit">
+  <view>
+  请输入手机号：
+    <input name='phoneNumber' bindinput='phoneNumberInput'></input>
+  </view>
+  <view>
+  请输入验证码：
+    <input name='captchaCode' bindinput='captchaCodeInput'></input>
+  </view>
+    <button open-type='SendCaptcha' bindtap="SendCaptcha">发送验证码</button>
+  <button form-type='submit' style='margin-top:20px;'>确定</button>
+</form>

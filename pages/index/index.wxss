@@ -1,0 +1,149 @@
+
+.container{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.orderDetail{
+  width: 90%;
+  height: 60px;
+  background: white;
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+.orderDetailInfoBtnY{
+ background: #5ac72f;
+}
+.orderDetailInfoBtnN{
+ background: #cdcdcd;
+}
+.orderDetailInfoBtn{
+  font-size: 12px;
+  color: white;
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 25px;
+}
+.orderDetailInfo{
+  width: 90%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+
+}
+.orderDetailInfo>view{
+  border-radius: 30px;
+  background: #999;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+}
+.order{
+  width:100px;
+  height: 45px;
+  border-radius: 5px;
+  position: relative;
+  top:calc(100% - 170px);
+  left:calc(100% - 140px);
+}
+.orderInfo{
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  background: white;
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.orderBottom{
+  border-top:10px solid white ;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent; 
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: 15px;
+}
+.orderDisplayImg{
+  width: 100%;
+  height: 100%;
+}
+.running{
+  width: 92%;
+  height: 120px;
+  background: white;
+  border-radius: 5px;
+  position: relative;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.runningDetail{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.runningDetailItem{
+  width: 100px;
+  height: 55px;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 15px;
+}
+.runningIcon{
+  font-size: 40px;
+}
+.runningNews{
+  font-size: 12px;
+  color:#969696; 
+  width: 100%;
+  text-align: center;
+}
+.orderImg{
+  width: 30px;
+  height: 30px;
+}
+.control{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.controlAll{
+  width: 60px;
+  height: 60px;
+}
+.controlRunning{
+  width: 190px;
+  height: 60px;
+ position: absolute;
+ top: 35px;
+  left: 50%;
+  margin-left: -95px;
+}
+.centerImg{
+  width: 20px;
+  height: 40px;
+  position: relative;
+  margin: 0 auto;
+  top:calc(50% - 35px);
+}
